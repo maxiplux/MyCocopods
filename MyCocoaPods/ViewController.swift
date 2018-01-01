@@ -7,11 +7,21 @@
 //
 
 import UIKit
+import DynamicButton
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        let dynamicButton = DynamicButton(style: .hamburger)
+        // Equivalent to
+        // let dynamicButton   = DynamicButton()
+        dynamicButton.style = .hamburger
+        
+        // Animate the style update
+        dynamicButton.setStyle(.close, animated: true)
+        self.view.addSubview(dynamicButton)
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
