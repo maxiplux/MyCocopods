@@ -44,6 +44,7 @@
 				0DD1AA981FFA83080056A956 /* Products */,
 			);
 			sourceTree = "<group>";
+			wrapsLines = 0;
 		};
 		0DD1AA981FFA83080056A956 /* Products */ = {
 			isa = PBXGroup;
@@ -282,7 +283,7 @@
 				DEVELOPMENT_TEAM = A5HZDPVDZE;
 				INFOPLIST_FILE = MyCocoaPods/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Acordes1.net.juanfrancisco.blog.MyCocoaPods;
+				PRODUCT_BUNDLE_IDENTIFIER = Acordes1.net.juanfrancisco.blog.MyGrafity;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -297,7 +298,7 @@
 				DEVELOPMENT_TEAM = A5HZDPVDZE;
 				INFOPLIST_FILE = MyCocoaPods/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Acordes1.net.juanfrancisco.blog.MyCocoaPods;
+				PRODUCT_BUNDLE_IDENTIFIER = Acordes1.net.juanfrancisco.blog.MyGrafity;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
